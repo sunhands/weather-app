@@ -1,0 +1,67 @@
+body {
+  font-family: sans-serif;
+}
+.card-body {
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+h2 {
+  font-family: serif;
+  font-weight: 900;
+}
+.current-weather {
+  font-family: serif;
+  font-size: larger;
+  font-weight: 900;
+}
+#city {
+  font-family: serif;
+  font-size: large;
+  font-weight: 900;
+  position: static;
+}
+#date {
+  font-family: serif;
+  font-size: large;
+  font-weight: 900;
+  position: static;
+  display: block;
+  bottom: 100px;
+}
+
+#temperature {
+  font-family: serif;
+  font-size: large;
+  font-weight: 900;
+  position: static;
+  display: block;
+  bottom: 100px;
+}
+
+#celsius-link {
+  text-decoration: none;
+}
+#fahrenheit-link {
+  text-decoration: none;
+}
+
+.humidity,
+.col {
+  font-family: serif;
+  font-size: large;
+  font-weight: 900;
+  position: static;
+  display: block;
+  bottom: 100px;
+}
+.globe {
+  position: relative;
+  display: block;
+  left: 300px;
+  bottom: 150px;
+  border-radius: 25px;
+}
+.col-md-4 {
+  position: relative;
+  display: block;
+  left: 150px;
+}
